@@ -1,0 +1,54 @@
+   <!DOCTYPE html>
+   <html lang="es">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Mis Enlaces</title>
+       <style>
+           body {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               height: 100vh;
+               background-color: #B08F6E;
+           }
+           .container {
+               text-align: center;
+               background-color: #D0A583;
+               padding: 20px;
+               border-radius: 10px;
+               width: 300px;
+           }
+           img {
+               border-radius: 50%;
+               width: 100px;
+               height: 100px;
+           }
+           .link-button {
+               display: block;
+               margin: 10px 0;
+               padding: 10px;
+               background-color: #4A3928;
+               color: white;
+               text-decoration: none;
+               border-radius: 5px;
+           }
+           .link-button:hover {
+               background-color: #3B2E24;
+           }
+       </style>
+   </head>
+   <body>
+       <div class="container">
+           <img src="tuimagen.jpg" alt="Avatar">
+           <h2>@Usuario</h2>
+           <p>Descripción corta</p>
+           <a href="https://www.instagram.com" class="link-button">Instagram</a>
+           <a href="https://twitter.com" class="link-button">X</a>
+           <a href="https://www.youtube.com" class="link-button">YouTube</a>
+           <a href="mail:tuemail@example.com" class="link-button">Correo</a>
+           <!-- Añade más enlaces como necesites -->
+       </div>
+   </body>
+   </html>
+   
